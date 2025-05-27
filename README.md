@@ -32,5 +32,5 @@ This repo and related links include:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Cyber-Ops-Live/intro
-   cd intro
+   git clone https://github.com/Cyber-Ops-Live/Termux
+   cd Termux
