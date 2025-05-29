@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber-Ops-Live</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { padding: 0 1em;  background-color: #0f0f0f; color: #00ffcc; font-family: monospace; text-align: center; /**margin-top: 10%;**/ }
+    a { color: #00ffcc; text-decoration: none; }
+    a:hover { color: #ff00cc; }
+/*********************************/
+.flashing-border {
+    border: 4px double red;
+    padding: 0.5em;
+    margin: 0;
+    display: inline-block;
+    animation: flashBorder 1s infinite;
+  }
+
+  @keyframes flashBorder {
+    0%   { border-color: red; }
+    50%  { border-color: yellow; }
+    100% { border-color: red; }
+  }
+
+/*********************************/
+  .flash-text {
+    animation: flashText 1s infinite;
+    font-weight: bold;
+  }
+
+  @keyframes flashText {
+    0% {
+      color: red;
+      text-shadow: 0 0 5px red;
+    }
+    50% {
+      color: yellow;
+      text-shadow: 0 0 10px yellow;
+    }
+    100% {
+      color: red;
+      text-shadow: 0 0 5px red;
+    }
+  }
+
+  h4 {
+    font-family: sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+/*********************************/
+</style>
+
+</head>
+<body>
+<h1><span class="flash-text">⚡</span> Cyber-Ops-Live <span class="flash-text">⚡</span></h1>
+  <small>Presents..</small><br><br><br>
+  <h1 class="flashing-border"  style="border: double; padding: 0.5em; margin: 0; display: inline-block;">Digital Marketers</h1>
+<div style="height:50px;"></div>
+  <h3>Join our group on..</h3>
+  <p>
+| <a href="https://chat.whatsapp.com/FxchIC2cgiOJtf18qeJSKa" target="_blank">WhatsApp</a> |
+  </p>
+
+  
+  <h3>& see our work on..</h3>
+  <nav><p>
+    <!--a href="https://wa.me/0633497484">WhatsApp</a--> |
+    <a href="https://facebook.com"/NovaVirell>Facebook</a> |
+    <a href="#https://youtube.com/yourchannel">YouTube</a> |
+    <a href="#https://github.com/yourusername/CyberOps-Termux">Git Hub</a> |
+  </p></nav>
+<div style="height:100px;"></div>
+
+<footer>
+  <p>🔗 Connect with us across the web. <br>Built by humans, powered by <a href="https://chat.openai.com/"><span class="flash-text">A.I.</span></a></p>
+</footer>
+</body>
+</html>
